@@ -36,7 +36,7 @@ where
 
 ### Creating instance of Client
 
-    MarketoClient client = MarketoRestClient.create("https://xxx-xxx-xxx.mktorest.com/identity", "https://xxx-xxx-xxx.mktorest.com/rest")
+    MarketoRestClientManager client = MarketoRestClientManager.create("https://xxx-xxx-xxx.mktorest.com/identity", "https://xxx-xxx-xxx.mktorest.com/rest")
             .withCredentials("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
 ### Listing all emails
